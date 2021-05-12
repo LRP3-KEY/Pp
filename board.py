@@ -1,6 +1,6 @@
 class Board(object):
     def __init__(self):
-        self.board_data=[" "]*9
+        self.board_data=list(range(9))
         self.movable_list=list(range(9))
     def show_board(self,show_index=False):
         for i in (0,3,6):
